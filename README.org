@@ -1,0 +1,18 @@
+* Cidian
+Cidian (词典 [dictionary]) is a Chinese-English dictionary application that is built on top of the open-source Chinese-English word dictionary [[https://www.mdbg.net/chinese/dictionary?page=cedict][CEDICT]]. The application consists of two main features:
+1. Dictionary: Look up words and display all its translations
+2. Reader: Enter a Chinese text and highlight parts of the text to show the pinyin and translations
+
+The GUI is built using [[https://www.riverbankcomputing.com/software/pyqt/][PyQt5]].
+
+Application is under development.
+
+* Changelog
+** Changes
+- <2020-09-22 Tue> :: V0.1 released. Includes bare-bones features for dictionary and reader.
+
+** Todos
+*** TODO Include pinyin search queries
+*** TODO Allow clicking on entries to show translations in separate view
+*** TODO Show sentence examples in a dictEntry
+*** TODO Improve UI
